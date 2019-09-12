@@ -11,14 +11,16 @@
       <li>Cell to: 9980211268</li>
     </ul>
     <hr />
-    <form action="mailto:varunkumarvelicheti@gmail.com" method="post" enctype="text/plain">
-      <label>Your Name:</label>
-      <input type="text" name="yourName" value=""><br>
-      <label>Your Email:</label>
-      <input type="email" name="yourMail" value=""><br>
-      <label>Your Message</label><br>
-      <textarea name="name" rows="8" cols="30"></textarea><br>
-      <input type="submit" name="submit">
+    <form action="mailto:varunkumarvelicheti@gmail.com" method="get" enctype="text/plain">
+      <p>Name: <input type="text" name="name"/></p>
+      <p>Email: <input type="text" name="email"/></p>
+      <p>Comments:
+        <br />
+        <textarea name="comments" rows = "12" cols = "35">Send your comments to the website.</textarea>
+        <br>
+      <p><input type="submit" name="submit" value="Send" />
+        <input type="reset" name="reset" value="Clear Form" />
+      </p>
     </form>
   </body>
 </html>
